@@ -1,3 +1,53 @@
 header{
-    color: orange;
+    background-color: #FED100;
+    height: 650px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.name{
+    margin: 40px 0 0 307px;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    padding: 30px 0 20px 0;
+}
+
+.phone{
+    margin: 45px 301px 0 0;
+    font-weight: bold;
+    text-decoration: underline;    
+}
+
+.h1{
+    font-weight: bold;
+    margin: 0 0 10px 303px;
+    padding: 63px 0 0 0;
+
+}
+
+.Заказать{
+    margin: 50px 0 0 307px;
+    padding: 15px 95px;
+    background-color: red;
+    color: white;
+}
+
+.span{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 77px 20px 0 370px;
+}
+
+span{
+    padding: 0 90px 0 0;
 }
