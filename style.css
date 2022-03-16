@@ -59,9 +59,27 @@ span{
 }
 
 .block2 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: bold;
 }
 
+.block2 .box1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block2 .box2{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.block2 .box3{
+    display: flex;
+    justify-content: center;
+}
+
+.block2 .box4{
+    display: flex;
+    justify-content: flex-end;
+}
